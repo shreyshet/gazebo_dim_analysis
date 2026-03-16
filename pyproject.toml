@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "patio_gazebo_tool"
+version = "1.0.0"
+description = "A drag-and-drop patio/gazebo layout visualization tool built with Tkinter."
+authors = [
+    {name="Shreyansh Shethia"}
+]
+dependencies = [
+    "tk"
+]
+
+[project.scripts]
+patio-gazebo = "patio_gazebo.app:main"

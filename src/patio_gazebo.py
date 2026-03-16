@@ -136,6 +136,8 @@ class DragDropApp:
         self.bottom_lbl.config(text=f"Bottom: {bottom_gap:.1f} in")
 
 
-root = tk.Tk()
-app = DragDropApp(root)
-root.mainloop()
+
+def main():
+    root = tk.Tk()
+    app = DragDropApp(root)
+    root.mainloop()
